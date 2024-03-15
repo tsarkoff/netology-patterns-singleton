@@ -2,7 +2,7 @@ import java.time.LocalDateTime;
 
 public class Logger {
     private static Logger logger = null;
-    private static int num = 1;
+    private int num = 1;
     private static boolean verbal = true;
 
     private Logger() {
